@@ -6,11 +6,10 @@ class Conversation
     while count < goodbye do
       grandma = Grandma.new
       kid = Kid.new.input
-
         if kid == "goodbye" && count == 1
           puts grandma.goodbye_two
           return
-        elsif kid == "goodbye"
+        elsif kid  "goodbye"
           count += 1
           puts grandma.goodbye_one
         elsif kid == ""
