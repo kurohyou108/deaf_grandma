@@ -1,3 +1,6 @@
+require './lib/grandma'
+require './lib/kid'
+
 class Conversation
   def chat
     count = 0
@@ -9,7 +12,7 @@ class Conversation
         if kid == "goodbye" && count == 1
           puts grandma.goodbye_two
           return
-        elsif kid  "goodbye"
+        elsif kid == "goodbye"
           count += 1
           puts grandma.goodbye_one
         elsif kid == ""
