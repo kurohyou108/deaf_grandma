@@ -1,5 +1,8 @@
 require_relative 'deaf_grandma_test_helper'
 require './lib/deaf_grandma'
+require './lib/grandma'
+require './lib/kid'
+require './conversation'
 
 #Test cases are not working due to gets CLI.  Need to read up on TDD for CLI
 
